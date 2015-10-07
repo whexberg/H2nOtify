@@ -5,7 +5,6 @@ import tkMessageBox
 top = Tkinter.Tk()
 
 def helloCallBack(mNumber, mMessage):
-    '''entry = "hello"'''
     os.system("./smsSend " + str(mNumber) + " " + str(mMessage))
 
 mNumber = Tkinter.Entry(top)
